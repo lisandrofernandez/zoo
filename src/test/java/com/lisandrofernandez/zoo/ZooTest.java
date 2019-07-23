@@ -156,6 +156,22 @@ public class ZooTest {
     }
 
     @Test
+    public void getAnimals_WhenAddAnimalToSet_ShouldNotBePresentInTheZoo() {
+        Zoo zoo = new Zoo();
+        Animal animal = new Animal("Animal One", "Meat");
+        zoo.getAnimals().add(animal);
+        assertFalse(zoo.isAnimalPresent(animal));
+    }
+
+    @Test
+    public void getAnimals_WhenRemoveAnimalFromSet_ShouldBePresentInTheZoo() {
+        Animal animal = new Animal("Animal One", "Meat");
+        Zoo zoo = new Zoo(animal);
+        zoo.getAnimals().remove(animal);
+        assertTrue(zoo.isAnimalPresent(animal));
+    }
+
+    @Test
     public void friendshipShouldBeSymmetric() {
         Dog dog = new Dog("Dog One", "Meat", DogType.HUNTING);
         Parrot parrot = new Parrot("Parrot One", "Grain", .25f, false);
