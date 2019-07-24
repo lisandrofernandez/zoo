@@ -38,13 +38,13 @@ public class ZooTest {
     @Test
     public void emptyZoo_NoAnimals() {
         Zoo zoo = new Zoo();
-        assertEquals(0, zoo.getAnimals().size());
+        assertTrue(zoo.getAnimals().isEmpty());
     }
 
     @Test
     public void emptyZoo_NoAnimalsAndFriends() {
         Zoo zoo = new Zoo();
-        assertEquals(0, zoo.getAnimalsAndFriends().size());
+        assertTrue(zoo.getAnimalsAndFriends().isEmpty());
     }
 
     // at the beginning no animal has friends
@@ -60,7 +60,7 @@ public class ZooTest {
             new Chicken("Chicken Two", "Corn", .75f, false)
         );
         for (Pair<Animal, Set<Animal>> af : zoo.getAnimalsAndFriends()) {
-            assertEquals(0, af.getValue().size());
+            assertTrue(af.getValue().isEmpty());
         }
     }
 
