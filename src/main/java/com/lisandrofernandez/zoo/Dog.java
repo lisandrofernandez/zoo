@@ -45,15 +45,15 @@ public class Dog extends Animal {
     }
 
     /**
-     * Construct an {@code Dog} with the given name, favorite food and
+     * Construct an {@code Dog} with the given name, favourite food and
      * dog type.
      *
      * @param name the dog name
-     * @param favouriteFood the dog favorite food
+     * @param favouriteFood the dog favourite food
      * @param type the dog type
      */
-    public Dog(String name, String favoriteFood, DogType type) {
-        super(name, favoriteFood);
+    public Dog(String name, String favouriteFood, DogType type) {
+        super(name, favouriteFood);
         this.type = type;
     }
 
@@ -77,8 +77,8 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return "Dog [name = " + name + ", favorite food = " + favoriteFood +
-                ", dog type = " + type + "]";
+        return "Dog [name = " + name + ", favourite food = " + favouriteFood +
+               ", dog type = " + type + "]";
     }
 
 }

@@ -29,7 +29,7 @@ package com.lisandrofernandez.zoo;
 
 public class Animal {
     protected String name;
-    protected String favoriteFood;
+    protected String favouriteFood;
 
     /**
      * Construct an {@code Animal}.
@@ -46,15 +46,15 @@ public class Animal {
     }
 
     /**
-     * Construct an {@code Animal} with the given name and favorite
+     * Construct an {@code Animal} with the given name and favourite
      * food.
      *
      * @param name the animal name
-     * @param favouriteFood the animal favorite food
+     * @param favouriteFood the animal favourite food
      */
-    public Animal(String name, String favoriteFood) {
+    public Animal(String name, String favouriteFood) {
         this.name = name;
-        this.favoriteFood = favoriteFood;
+        this.favouriteFood = favouriteFood;
     }
 
     /**
@@ -76,25 +76,26 @@ public class Animal {
     }
 
     /**
-     * Returns the animal favorite food.
+     * Returns the animal favourite food.
      *
-     * @return the animal favorite food
+     * @return the animal favourite food
      */
     public String getFavouriteFood() {
-        return favoriteFood;
+        return favouriteFood;
     }
 
     /**
-     * Sets the animal favorite food.
+     * Sets the animal favourite food.
      *
-     * @param favouriteFood the animal favorite food
+     * @param favouriteFood the animal favourite food
      */
     public void setFavouriteFood(String favouriteFood) {
-        this.favoriteFood = favouriteFood;
+        this.favouriteFood = favouriteFood;
     }
 
     @Override
     public String toString() {
-        return "Animal [name = " + name + ", favorite food = " + favoriteFood + "]";
+        return "Animal [name = " + name + ", favourite food = " +
+               favouriteFood + "]";
     }
 }

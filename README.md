@@ -10,32 +10,32 @@ We want to build a zoo with the following animals living in it:
 * Dog
     - Name: "Killian"
     - Dog type: Hunting dog
-    - Favorite food: "Meat"
+    - Favourite food: "Meat"
 * Parrot
     - Can not speak.
     - Name: "Parrot one"
-    - Favorite food: "Grain"
+    - Favourite food: "Grain"
     - Length of wings: 0.25
 * Chicken
     - Length of wings: 0.75
     - Broiler
-    - Favorite food: "Corn"
+    - Favourite food: "Corn"
     - Name: "Chicken one"
 * Dog
-    - Favorite food: "Fresh meat"
+    - Favourite food: "Fresh meat"
     - Dog type: Working dog
     - Name: "Rocky"
 * Parrot
     - Length of wings: 0.5
     - Name: "Parrot two"
-    - Favorite food: "Corn"
+    - Favourite food: "Corn"
     - Can speak
 * Dog
     - Dog type: Sport dog
-    - Favorite food: "Pedigree"
+    - Favourite food: "Pedigree"
     - Name: "Peter"
 * Chicken
-    - Favorite food: "Corn"
+    - Favourite food: "Corn"
     - Name: "Rocky"
     - Not a broiler
     - Length of wings: 0.75

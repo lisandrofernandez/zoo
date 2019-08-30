@@ -45,17 +45,17 @@ public class Parrot extends Bird {
     }
 
     /**
-     * Construct an {@code Parrot} with the given name, favorite food,
+     * Construct an {@code Parrot} with the given name, favourite food,
      * length of the wings, and whether it can speak.
      *
      * @param name the parrot name
-     * @param favouriteFood the parrot favorite food
+     * @param favouriteFood the parrot favourite food
      * @param wingsLength the length of the wings of the parrot
      * @param speak {@code true} if the parrot can speak
      */
-    public Parrot(String name, String favoriteFood, Float wingsLength,
+    public Parrot(String name, String favouriteFood, Float wingsLength,
                   Boolean speak) {
-        super(name, favoriteFood, wingsLength);
+        super(name, favouriteFood, wingsLength);
         this.speak = speak;
     }
 
@@ -79,8 +79,8 @@ public class Parrot extends Bird {
 
     @Override
     public String toString() {
-        return "Parrot [name = " + name + ", favorite food = " + favoriteFood +
-               ", length of wings = " + wingsLength +
+        return "Parrot [name = " + name + ", favourite food = " +
+               favouriteFood + ", length of wings = " + wingsLength +
                ", can speak = " + speak + "]";
     }
 }

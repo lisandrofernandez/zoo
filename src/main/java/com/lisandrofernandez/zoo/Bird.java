@@ -45,15 +45,15 @@ public class Bird extends Animal {
     }
 
     /**
-     * Construct an {@code Bird} with the given name, favorite food and
+     * Construct an {@code Bird} with the given name, favourite food and
      * length of the wings.
      *
      * @param name the bird name
-     * @param favouriteFood the bird favorite food
+     * @param favouriteFood the bird favourite food
      * @param wingsLength the length of the wings of the bird
      */
-    public Bird(String name, String favoriteFood, Float wingsLength) {
-        super(name, favoriteFood);
+    public Bird(String name, String favouriteFood, Float wingsLength) {
+        super(name, favouriteFood);
         this.wingsLength = wingsLength;
     }
 
@@ -77,7 +77,7 @@ public class Bird extends Animal {
 
     @Override
     public String toString() {
-        return "Bird [name = " + name + ", favorite food = " + favoriteFood +
+        return "Bird [name = " + name + ", favourite food = " + favouriteFood +
                ", length of wings = " + wingsLength + "]";
     }
 

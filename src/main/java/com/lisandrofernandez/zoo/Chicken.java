@@ -39,17 +39,17 @@ public class Chicken extends Bird {
     }
 
     /**
-     * Construct an {@code Chicken} with the given name, favorite food,
+     * Construct an {@code Chicken} with the given name, favourite food,
      * length of the wings, and whether it can speak.
      *
      * @param name the chicken name
-     * @param favouriteFood the chicken favorite food
+     * @param favouriteFood the chicken favourite food
      * @param wingsLength the length of the wings of the chicken
      * @param boiler {@code true} if the chicken is a boiler
      */
-    public Chicken(String name, String favoriteFood, Float wingsLength,
+    public Chicken(String name, String favouriteFood, Float wingsLength,
                    Boolean boiler) {
-        super(name, favoriteFood, wingsLength);
+        super(name, favouriteFood, wingsLength);
         this.boiler = boiler;
     }
 
@@ -73,8 +73,8 @@ public class Chicken extends Bird {
 
     @Override
     public String toString() {
-        return "Chicken [name = " + name + ", favorite food = " + favoriteFood +
-               ", length of wings = " + wingsLength +
+        return "Chicken [name = " + name + ", favourite food = " +
+               favouriteFood + ", length of wings = " + wingsLength +
                ", is boiler = " + boiler + "]";
     }
 }
