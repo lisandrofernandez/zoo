@@ -69,7 +69,7 @@ public class Animal {
     /**
      * Sets the animal name.
      *
-     * @param the animal name
+     * @param name the animal name
      */
     public void setName(String name) {
         this.name = name;
