@@ -50,7 +50,7 @@ public class App {
             new Dog("Dog One", "Meat", DogType.HUNTING),
             new Parrot("Parrot One", "Grain", .25f, false),
             new Chicken("Chicken One", "Corn", .75f, true),
-            new Dog("Dog Two", "Freash meat", DogType.WORKING),
+            new Dog("Dog Two", "Fresh meat", DogType.WORKING),
             new Parrot("Parrot Two", "Corn", .5f, true),
             new Dog("Dog Three", "Pedigree", DogType.SPORT),
             new Chicken("Chicken Two", "Corn", .75f, false)
