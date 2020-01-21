@@ -65,9 +65,9 @@ public class Chicken extends Bird {
     /**
      * Sets {@code true} if the parrot can speak.
      *
-     * @param canSpeak {@code true} if the chicken can speak
+     * @param boiler {@code true} if the chicken can speak
      */
-    public void setBolier(Boolean boiler) {
+    public void setBoiler(Boolean boiler) {
         this.boiler = boiler;
     }
 
