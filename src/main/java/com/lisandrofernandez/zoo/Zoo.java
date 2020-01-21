@@ -236,7 +236,7 @@ public class Zoo {
             Animal[] notFriends = Arrays.stream(animals)
                     .filter(x -> !areFriends(animal, x) && !animal.equals(x))
                     .toArray(Animal[]::new);
-            // notFriends.lenght != 0
+            // notFriends.length != 0
             int i = new Random().nextInt(notFriends.length);
             Animal newFriend = notFriends[i];
             makeFriends(animal, newFriend);
